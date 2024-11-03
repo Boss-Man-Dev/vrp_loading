@@ -13,8 +13,8 @@ A custom loading screen for vRP servers, inspired by the popular QBCore loading 
 1. ### Download the Repository:
     * Clone or download the repository files from GitHub.
 
-2. ### Locate vrp_loading:
-    * Inside the downloaded files, locate the folder named vrp_loading. This folder contains all the necessary assets and files for the loading screen.
+2. ### Locate vrp_loading-main:
+    * rename the folder to `vrp_loading` or just drop the `-main`.
 
 3. ### Add vrp_loading to Your Server:
     * Drag and drop the vrp_loading folder into your server’s resources folder.
