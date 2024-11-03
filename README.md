@@ -14,20 +14,23 @@ A custom loading screen for vRP servers, inspired by the popular QBCore loading 
     * Clone or download the repository files from GitHub.
 
 2. ### Locate vrp_loading-main:
+   #### using `extract here` method
     * rename the folder to `vrp_loading` or just drop the `-main`.
+   #### using `extract files...` method
+    * rename the file inside to `vrp_loading` or just drop the `-main`.
 
-3. ### Add vrp_loading to Your Server:
+4. ### Add vrp_loading to Your Server:
     * Drag and drop the vrp_loading folder into your server’s resources folder.
 
-4. ### Add to Server Config:
+5. ### Add to Server Config:
     * Open your server configuration file (usually server.cfg) and add the following line to ensure the loading screen starts up with the server:
 
       `ensure vrp_loading`
 
-5. ### Customize (Optional):
+6. ### Customize (Optional):
     * Inside vrp_loading/html, you can customize various aspects of the loading screen, including images, text messages, and music. Edit the config.lua file to personalize your server's loading experience.
 
-6. ### Restart Your Server:
+7. ### Restart Your Server:
     * Once installed and configured, restart your server to apply the loading screen.
 
 # Customization
