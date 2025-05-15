@@ -1,5 +1,5 @@
 local cfg = {}
 
-cfg.multiCharacter = true
+cfg.multiCharacter = false  -- default to not use multicharacter
 
 return cfg
