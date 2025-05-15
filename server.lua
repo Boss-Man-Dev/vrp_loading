@@ -9,7 +9,7 @@ function Loading:__construct()
 end 
 
 function Loading.event:playerSpawn(user, first_spawn)
-    if first_spawn and user:isReady() and self.cfg.multiCharacter then
+    if first_spawn and user:isReady() and not self.cfg.multiCharacter then
         self.remote._close(user.source)
     end
 end

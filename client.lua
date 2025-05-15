@@ -18,14 +18,18 @@ function Loading:__construct()
 end
 
 function Loading:close()
-	-- Shut down the game's loading screen (this is NOT the NUI loading screen).
-	ShutdownLoadingScreen()
-	
 	Citizen.Wait(0)
 	DoScreenFadeOut(0)
 	
+	-- Shut down the game's loading screen (this is NOT the NUI loading screen).
+	ShutdownLoadingScreen()
+	
 	-- Shut down the NUI loading screen.
 	ShutdownLoadingScreenNui()
+	
+	if not cfg.loading then
+    DoScreenFadeIn(500)  -- Fade in smoothly
+  end
 
 	Citizen.Wait(0)
 	TriggerServerEvent("Multi:open")
